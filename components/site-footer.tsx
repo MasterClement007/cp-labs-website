@@ -7,7 +7,7 @@ export function SiteFooter() {
         <div>
           <p className="text-sm font-semibold">{site.brand}</p>
           <p className="text-sm text-muted-foreground">
-            {site.role} &middot; Founded by {site.name}
+            {site.role} &middot; Founded by {site.shortName}
           </p>
         </div>
         <nav aria-label="Footer">

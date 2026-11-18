@@ -28,7 +28,7 @@ export function Hero() {
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground text-pretty">
             {"I'm "}
-            <span className="font-medium text-foreground">{site.name}</span>
+            <span className="font-medium text-foreground">{site.shortName}</span>
             {
               ' — an IT consultant helping individuals and small businesses with technology strategy, project delivery, AI agents, and hands-on hardware and software repair.'
             }

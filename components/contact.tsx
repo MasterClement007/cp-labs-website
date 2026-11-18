@@ -1,4 +1,4 @@
-import { ArrowUpRight, Mail, MapPin, Phone } from 'lucide-react'
+import { ArrowUpRight, MapPin } from 'lucide-react'
 import { buttonVariants } from '@/components/ui/button'
 import { site } from '@/lib/site'
 import { cn } from '@/lib/utils'
@@ -6,10 +6,8 @@ import { cn } from '@/lib/utils'
 const mailto = `mailto:${site.email}?subject=${encodeURIComponent('Project inquiry')}`
 
 export function Contact() {
-  const details = [
-    { icon: Mail, label: 'Email', value: site.email, href: `mailto:${site.email}` },
-    { icon: Phone, label: 'Phone', value: site.phone, href: site.phoneHref },
-    { icon: MapPin, label: 'Location', value: `${site.location} · Remote worldwide` },
+  const details: { icon: typeof MapPin; label: string; value: string; href?: string }[] = [
+    { icon: MapPin, label: 'Location', value: 'Remote worldwide' },
   ]
 
   return (
