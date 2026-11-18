@@ -9,9 +9,9 @@ const geistMono = Geist_Mono({
   variable: '--font-geist-mono',
 })
 
-const title = 'Clement Tettey Padi — IT Consultant & Technology Partner'
+const title = 'CP Labs — IT Consulting by Clement Tettey Padi'
 const description =
-  'IT consulting, freelance project management, AI agent development, and hands-on hardware and software repair. CompTIA A+, Network+, Security+ and AWS certified. Based in Webster, Massachusetts.'
+  'CP Labs: IT consulting, freelance project management, AI agent development, and hands-on hardware and software repair. CompTIA A+, Network+, Security+ and AWS certified. Based in Webster, Massachusetts.'
 
 export const metadata: Metadata = {
   title,
