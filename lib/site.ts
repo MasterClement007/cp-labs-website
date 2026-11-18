@@ -1,4 +1,5 @@
 export const site = {
+  brand: 'CP Labs',
   name: 'Clement Tettey Padi',
   shortName: 'Clement Padi',
   role: 'IT Consultant & Technology Partner',

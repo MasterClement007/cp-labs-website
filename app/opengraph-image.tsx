@@ -1,6 +1,6 @@
 import { ImageResponse } from 'next/og'
 
-export const alt = 'Clement Tettey Padi — IT Consultant & Technology Partner'
+export const alt = 'CP Labs — IT Consulting by Clement Tettey Padi'
 export const size = { width: 1200, height: 630 }
 export const contentType = 'image/png'
 
@@ -41,10 +41,10 @@ export default function OpengraphImage() {
         </div>
         <div style={{ display: 'flex', flexDirection: 'column' }}>
           <div style={{ fontSize: 76, fontWeight: 700, letterSpacing: -2, lineHeight: 1.05 }}>
-            Clement Tettey Padi
+            CP Labs
           </div>
           <div style={{ fontSize: 40, marginTop: 16, color: '#9fb4ec' }}>
-            IT Consultant & Technology Partner
+            IT Consulting by Clement Tettey Padi
           </div>
         </div>
         <div style={{ display: 'flex', gap: 16, fontSize: 24, opacity: 0.8 }}>
